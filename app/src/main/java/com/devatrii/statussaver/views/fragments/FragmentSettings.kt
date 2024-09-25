@@ -58,12 +58,7 @@ class FragmentSettings : Fragment() {
                     desc = "Sharing is caring"
                 )
             )
-            list.add(
-                SettingsModel(
-                    title = "Rate Us",
-                    desc = "Please support our work by rating on PlayStore"
-                )
-            )
+
         }
     }
 

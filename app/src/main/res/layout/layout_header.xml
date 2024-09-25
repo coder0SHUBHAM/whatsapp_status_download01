@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:text="@string/app_name"
-    android:minHeight="200dp"
-    android:gravity="center"
-    android:background="@drawable/gradient"
-    android:textColor="@color/white"
-    android:textStyle="bold"
-    android:textSize="24sp"
-    android:layout_height="200dp">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
-</TextView>
+    <!-- Existing TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:minHeight="200dp"
+        android:gravity="center"
+        android:background="@drawable/gradient"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <!-- New TextView for "developed by Shubham Sonar" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Developed by Shubham Sonar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+</LinearLayout>
